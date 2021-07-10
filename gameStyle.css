@@ -1,0 +1,26 @@
+
+body{
+  text-align: center;
+  background: #222;
+}
+
+h1 {
+  color: white;
+  margin: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+}
+#connect4 {
+  background-color: rgb(0, 0, 156);
+  display: inline-block;
+  padding: 20px;
+}
+
+.col {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-color: rgb(211, 211, 211);
+  border-radius: 50%;
+  margin: 10px;
+}

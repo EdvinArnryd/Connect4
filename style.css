@@ -10,7 +10,7 @@ body {
   font-weight: 400;
 }
 .wrapper {
-  width: 100;
+  margin: 100px;
 }
 
 
@@ -56,4 +56,69 @@ nav a {
 
 nav a:hover {
   color: #000;
+}
+
+/*Home Page*/
+.homeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.homeContent p{
+  color: gray;
+  margin: 20px;
+}
+
+.box1{
+  text-align: center;
+}
+
+.startButton{
+  margin: 50px;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid aquamarine;
+}
+
+.startButton:hover {
+  background-color: rgb(149, 149, 149);
+  border: 2px solid rgb(74, 148, 123);
+}
+.connect4Image {
+  max-width: 200px;
+}
+
+/*Rules Page*/
+.rulesContent {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.rulesContent p {
+  color: gray;
+  margin: 20px;
+}
+
+/*Footer*/
+
+footer {
+  text-align:center;
+  background-color: rgb(214, 190, 123);
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+}
+
+footer p {
+  display: inline-block;
 }

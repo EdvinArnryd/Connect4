@@ -66,3 +66,14 @@ nav a {
 nav a:hover {
   color: #000;
 }
+
+/*Footer*/
+footer {
+  text-align:center;
+  background-color: rgb(214, 190, 123);
+}
+
+footer p {
+  display: inline-block;
+  margin: 50px;
+}

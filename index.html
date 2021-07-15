@@ -8,31 +8,44 @@
 </head>
 
 <body>
-    <header>
+  <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="game.html">Play</a></li>
         <li><a href="rules.html">Rules</a></li>
         <li><a href="hiscore.html">Hiscore</a></li>
       </ul>
     </nav>
-    </header>
-    <div class="wrapper">
+  </header>
+
+  <div class="wrapper">
     <div class="homeContent">
       <div class="box1">
-        <h1 >Welcome!</h1>
+        <h1>Welcome!</h1>
         <p>Play the classic game Connect Four</p>
-        <button class="startButton">Start</button>
+        <button class="startButton" onclick="getPlayerNames();">Start</button>
       </div>
     </div>
-    
-</div>
-<footer>
-  <p>Adress</p>
-  <p>Email</p>
-  <p>Telefon</p>
-</footer>
+  </div>
+
+  <div class=" form">
+    <div class="nameForm">
+      <p>Enter names</p>
+      <div class="playerName">
+        <input type="text" id="inputP1" placeholder="Player one">
+      </div>
+      <div class="playerName">
+        <input type="text" id="inputP2" placeholder="Player two">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Adress</p>
+    <p>Email</p>
+    <p>Telefon</p>
+  </footer>
+  <script src="homeScript.js"></script>
 </body>
 
 </html>
